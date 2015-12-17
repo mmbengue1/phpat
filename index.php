@@ -1,19 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mmbengue
- * Date: 2015-12-17
- * Time: 11:15
- */
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>site_chat</title>
-    <h1>site_chat</h1>
-</head>
-<body>
+require_once '_defines.php';
+    require_once  'view_parts/_page_base.php';
 
-</body>
-</html>
+?>
+
+<div id = 'main'>
+
+</div>
+<?php
+require_once 'view_parts/_footer.php';
+?>

@@ -1,0 +1,9 @@
+<?php
+define('SITE_NAME','PHPAT');
+define('SITE_URL','http://phpat.projet.com');
+/**
+ * Created by PhpStorm.
+ * User: mmbengue
+ * Date: 2015-12-17
+ * Time: 12:04
+ */
