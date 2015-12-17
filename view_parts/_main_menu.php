@@ -2,29 +2,25 @@
 $menu = array(
     "1" => array (
         "nom" => 'Home',//le nom de la page
-        "page"  => 'home',// la page
-        "url"   => "../chemin/home.php" // le chemin pour acceder au fichier
+        "page"  => 'index',// la page
+        "url"   => "../index.php" // le chemin pour acceder au fichier
     ),
     "2" => array (
-        "nom" => "Our Services",
-        "page"  => 'services',
-        "url"   => "../chemin/services.php"
+        "nom" => "Dashboard",
+        "page"  => 'dashboard',
+        "url"   => "/dashboard.php"
     ),
     "3" => array (
-        "nom" => 'Mohamed',
-        "page"  => 'mohamed',
-        "url"   => "../chemin/mohamed.php"
-    ),
-    "4" => array (
-        "nom" => 'About',
-        "page"  => 'about',
-        "url"   => "../chemin/about.php"
-    ),
-    "5" => array (
         "nom" => 'Contact',
         "page"  => 'contact',
-        "url"   => "../chemin/contact.php"
-    )
+        "url"   => "contact.php"
+    ),
+    "4" => array (
+        "nom" => 'Inscription',
+        "page"  => 'inscription',
+        "url"   => "../inscription.php"
+    ),
+
 );
 ?>
 
@@ -36,3 +32,5 @@ $menu = array(
     }
     ?>
 </ul>
+
+
