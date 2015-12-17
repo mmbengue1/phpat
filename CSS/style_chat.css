@@ -1,0 +1,12 @@
+#header{
+    background: linear-gradient(70deg, black, blue);
+    width: 100%;
+
+
+}
+
+li {
+    display: inline-block;
+    margin: 4px;
+
+}

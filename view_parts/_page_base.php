@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title><?= SITE_NAME ?></title>
-
+    <link rel="stylesheet" type="text/css" href="../CSS/style_chat.css">
 </head>
 <body>
 <?php
