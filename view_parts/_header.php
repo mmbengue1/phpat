@@ -1,7 +1,5 @@
 <div id="header">
-    <?php
-    require_once '_main_menu.php'
-    ?>
-
+    <h1><?= ucfirst($site_data[PAGE_ID]); ?></h1>
+<?php require_once '_login_out_form.php'; ?>
+<?php require_once '_main_menu.php'; ?>
 </div>
-<h1><?= SITE_NAME ?></h1>
